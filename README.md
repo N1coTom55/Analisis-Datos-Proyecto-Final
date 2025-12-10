@@ -34,6 +34,20 @@ Este proyecto presenta un **dashboard ejecutivo interactivo** diseñado bajo los
 
 Proporcionar a ejecutivos y gestores una visualización integral del desempeño de ventas, permitiendo identificar oportunidades de crecimiento, patrones geográficos y tendencias de productos en tiempo real.
 
+### 📸 Vistas del Dashboard
+
+<div align="center">
+
+**Dashboard - Vista 1 (Zona General y Análisis)**
+
+![Dashboard Vista 1](img/Dashboard-img1.png)
+
+**Dashboard - Vista 2 (Análisis Detallado y Conclusiones)**
+
+![Dashboard Vista 2](img/Dashboard-img2.png)
+
+</div>
+
 ### Resultados Principales
 
 ```
@@ -523,7 +537,7 @@ Top 3 Vendedor = IF([Ranking Vendedor] <= 3, "Sí", "No")
 
 ---
 
-## 📁 Estructura de Archivos
+## 📁 Estructura del Repositorio
 
 ```
 📁 Proyecto_Final_Data/
@@ -545,86 +559,12 @@ Top 3 Vendedor = IF([Ranking Vendedor] <= 3, "Sí", "No")
 │   ├─ Clientes.xlsx (82.33 KB) — ~250 clientes únicos
 │   └─ Productos.xlsx (42.47 KB) — 100 productos en catálogo
 │
-├── 📂 capturas/ (opcional)
-│   ├─ Dashboard_Completo.png
-│   ├─ Zona_KPIs.png
-│   ├─ Zona_Analisis.png
-│   └─ Zona_Conclusion.png
+├── 📂 img/
+│   ├─ Dashboard-img1.png — Captura 1 del dashboard
+│   └─ Dashboard-img2.png — Captura 2 del dashboard
 │
 └── .git/
     └─ Control de versiones Git
-```
-
-### Descripción Detallada de Archivos
-
-#### 📊 **Proyecto_Final.pbix** (Archivo Principal)
-```
-Tipo: Power BI Desktop Workbook
-Tamaño: 145.28 KB
-Contenido:
-├─ 1 Modelo de Datos (Esquema Estrella)
-├─ 4 Tablas de Datos (Ventas, Productos, Clientes, Calendario)
-├─ 14+ Medidas DAX implementadas
-├─ 1 Página de Dashboard
-├─ 3 Zonas Narrativas bien definidas
-├─ Panel de Filtros con Bookmarks
-└─ Interactividad completa con filtrado cruzado
-```
-
-#### 📄 **Informe Final.pdf** (Documentación Formal)
-```
-Tipo: Documento PDF
-Tamaño: 466.43 KB
-Contenido Esperado:
-├─ Resumen Ejecutivo
-├─ Descripción del Análisis
-├─ Hallazgos Clave
-├─ Recomendaciones Estratégicas
-└─ Métricas y KPIs
-```
-
-#### 📊 **data/Ventas.xlsx** (Tabla de Hechos)
-```
-Registros: 371 transacciones
-Período: 2022 - 2024
-Campos:
-├─ ID Transacción
-├─ ID Cliente (FK)
-├─ Código Producto (FK)
-├─ Fecha de Venta
-├─ Cantidad
-├─ Precio Unitario
-├─ Precio Total
-├─ Vendedor
-└─ Estado de Orden
-```
-
-#### 📦 **data/Productos.xlsx** (Dimensión)
-```
-Registros: 100 productos
-Campos:
-├─ Código Producto (PK)
-├─ Nombre Producto
-├─ Categoría
-├─ Subcategoría
-├─ Marca
-├─ Precio Unitario
-├─ Costo Unitario
-└─ Stock
-```
-
-#### 👥 **data/Clientes.xlsx** (Dimensión)
-```
-Registros: ~250 clientes únicos
-Campos:
-├─ ID Cliente (PK)
-├─ Nombre Completo
-├─ Email
-├─ País
-├─ Región
-├─ Tipo de Cliente
-├─ Segmento RFM
-└─ Fecha de Registro
 ```
 
 ---
