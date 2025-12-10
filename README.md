@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![Dashboard Preview](capturas/Dashboard_Completo.png)
 
 **Análisis Ejecutivo de Ventas con Power BI**
 
@@ -956,3 +955,4 @@ Agradecimientos especiales a:
 **[↑ Volver al inicio](#-dashboard-de-data-storytelling---e-commerce-2022-2024)**
 
 </div>
+
