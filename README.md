@@ -39,11 +39,11 @@ Proporcionar a ejecutivos y gestores una visualización integral del desempeño 
 
 **Dashboard - Vista 1 (Zona General y Análisis)**
 
-![Dashboard Vista 1](img/Dashboard-img1.png)
+![Dashboard Vista 1](img/Dashboard-img1.webp)
 
 **Dashboard - Vista 2 (Análisis Detallado y Conclusiones)**
 
-![Dashboard Vista 2](img/Dashboard-img2.png)
+![Dashboard Vista 2](img/Dashboard-img2.webp)
 
 </div>
 
